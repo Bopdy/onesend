@@ -15,6 +15,6 @@ def close_db(error):
 
 @app.route('/')
 def index():
-	return render_template('index.html', title="BopdyOneSend — Send & Receive BTC")
+	return render_template('index.html', title="OneSend — Send & Receive BTC")
 if __name__ == '__main__':
    app.run()
